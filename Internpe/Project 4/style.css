@@ -1,0 +1,40 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#board {
+    height: 540px;
+    width: 630px;
+    background-color: rgb(139, 135, 222);
+    border: 20px solid green;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); 
+    background-image: 
+        linear-gradient(45deg, rgba(59, 9, 9, 0.2) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(110, 42, 42, 0.2) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(110, 78, 78, 0.2) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(51, 39, 39, 0.2) 75%);
+    background-size: 20px 20px; 
+}
+
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    /* Circle */
+    background-color: greenyellow;
+    border-radius: 50%;
+    border: 5px solid burlywood;
+}
+
+.red-piece {
+    background-color:purple;
+}
+
+.yellow-piece {
+    background-color: cyan;
+}
